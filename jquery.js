@@ -54,3 +54,14 @@ let quotes =[
 
 
 ]
+
+const $btn = $('#btn');
+
+$btn.click(function(){
+
+  let number=Math.floor(Math.random()*quotes.length);
+  $('#Quote').html('<span>"</span>'+quotes[number].quote + '<span>"</span>' );
+  $('#autor').html('<span>--</span>'+quotes[number].autor  );
+
+
+});

@@ -1,5 +1,8 @@
 # QUOTEApp
 This is my personal project . Here i main focus on the use of jquery stuff.
+
+![](quote.PNG)
+
 The quotes that is used in this sites are the followings
 let quotes =[
 
